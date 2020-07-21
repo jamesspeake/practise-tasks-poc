@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Example iFrame communication using window.postMessage for safe cross domain communication with iFrames -->
+        <meta charset="utf-8">
+        <title>Practise task</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="wrapper.css">
+        <script src="wrapper.js"></script>
+
+    </head>
+
+    <body data-config="config_email.json">
+        <div class="row-container">
+            <div class="first-row">
+                <h1 id="title"></h1>
+
+                <!-- Put a progress bar here -->
+                <p id="instructions"></p>
+                <p id="hint"></p>
+                <p><a href="#" id="showMe">Show me where</a></p>
+            </div>
+
+            <iframe width="500" height="250" src="" id="contentFrame" class="second-row"></iframe>
+        </div>
+    </body>
+
+</html>

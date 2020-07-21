@@ -1,0 +1,10 @@
+{ 
+    "iframe": "./iframe/email/email.html",
+    "title": "Sending an email",
+    "steps": [
+        { "step": 1, "triggerField": "inputSubject", "triggerValue": "meeting up", "instruction": "Type 'meeting up' into the subject box.", "hint": "Sorry that's wrong" },
+        { "step": 2, "triggerField": "textAreaBody", "triggerValue": "Is tomorrow good?", "instruction": "Well done, now type 'Is tomorrow good?'", "hint": "Sorry that's wrong" },
+        { "step": 3, "triggerField": "buttonSend", "triggerValue": "send", "instruction": "Super, now click on the send button." },                    
+        { "step": 4, "triggerField": null, "triggerValue": null, "instruction": "Well done, you know how to send an email now!" }
+    ]
+}
