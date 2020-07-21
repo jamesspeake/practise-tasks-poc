@@ -5,14 +5,12 @@
         <meta charset="utf-8">
         <title>Practise tasks</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" type="text/css" href="wrapper.css">
-
     </head>
 
     <body>
         
-        <h1>practise tasks</h1>
+        <h1>LMW Practise Tasks - proof of concept</h1>
 
         <ul>
             <li><a href="task1.html">Task 1 - Registration</a></li>
@@ -22,25 +20,26 @@
 
         <p>How it works</p>
 
+        <p>Obviously this POC is rough and ready, but the general idea is that we build a 'dummy' website featuring all the concepts we want to teach, 
+            then wrap it with tasks .</p>
+
         <ul>
-            <li>IFrame contains a standalone 'app' that is just a basic HTML clickthrough with a tiny bit of control Javascript.</li>
-                <li>Importantly because it is just HTML it can be made fully branded, fully responsive, fully accessible and easily translatable.
-            </li>
-            <li>All the control sits outside of the 'app'.</li>
-            <li>The outer frame contains all the instructions and any feedback.</li>
-            <li>All instructions are created via a simple config file. <a href="config_email.json">Example file</a></li>
-
-            <li>There are different messages for each step if you do the wrong thing.</li>
-            <li>You can toggle highlighting of each</li>
+            <li>An iframe contains the standalone 'dummy' website that is just a basic HTML clickthrough with a tiny bit of control Javascript.</li>
+            <li>Importantly because it is just HTML it can be made fully branded, fully responsive, fully accessible and easily translatable.</li>
+            <li>All the instruction sits outside of the 'dummy' website.</li>
+            <li>The outer frame contains all the instructions for the task and any feedback.</li>
+            <li>All instructions and fields to target are defined in a simple config file. <a href="config_email.json">Example file</a></li>
+            <li>Different tasks can use the same app but target different fields.</li>
+            <li>There are different messages for each step and different messages if you do the wrong thing.</li>
+            <li>You can toggle highlighting of the fields you need to fill to help</li>
             <li>Note: To get the next instruction you currently need to click or tab out of the field</li>
-
         </ul>
 
-        <p>Other things we could do with this approach:</p>
+        <p>Other things we could do fairly easily with this approach:</p>
         <ul>
             <li>Make fields either fuzzy matches or allowing anything that matches the validation</li>
-            <li>Saving to the LRS anything a learner types in</li>
-            <li>Put in place tech to easily screenshot all this</li>
+            <li>Saving any data a learner types to the LRS</li>
+            <li>Put in place a framework to easily screenshot parts of the 'dummy' app for use in learning objects</li>
         </ul>
 
     </body>
