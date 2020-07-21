@@ -2,8 +2,8 @@
     "iframe": "./iframe/registration/registration.html",
     "title": "Registering on a website",
     "steps": [
-        { "step": 1, "triggerField": "inputFirstName", "triggerValue": "fred", "instruction": "Type 'fred' into the first name box please.", "hint": "Sorry that's wrong" },
-        { "step": 2, "triggerField": "inputLastName", "triggerValue": "smith", "instruction": "Well done, now type 'smith' into the Last Name field.", "hint": "Sorry that's wrong" },
+        { "step": 1, "triggerField": "inputFirstName", "triggerValue": "fred", "instruction": "Type 'fred' into the first name box please.", "hint": "Sorry that's wrong mate" },
+        { "step": 2, "triggerField": "inputLastName", "triggerValue": "smith", "instruction": "Well done, now type 'smith' into the Last Name field.", "hint": "Sorry try again" },
         { "step": 3, "triggerField": "buttonSave", "triggerValue": "save", "instruction": "Super, now click on the save button." },                    
         { "step": 4, "triggerField": null, "triggerValue": null, "instruction": "Well done, you know how to submit a form now!" }
     ]
