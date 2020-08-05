@@ -1,0 +1,35 @@
+{
+    "id": 23,
+    "locale": "uk/en",
+    "title": "Sending email attachments",
+    "description": "This is what you'll learn",
+    "steps": [ // In theory this allows for any number of learning steps
+        {
+            "step": 1,
+            "type": "learning",
+            "format": "adapt",
+            "config": {
+                "url": "/courses/email/en/uk" // Path that iframe loads
+            }
+        },
+        {
+            "step": 2, // Step 2 onwards if optional
+            "type": "practise",
+            "format": "customPractise",
+            "config": {
+                // For different types of object you may have custom config passed in
+            }
+        }
+    ],
+    "completion": {
+        "description": "You've learned X, Y, Z",
+        "resources": {
+
+        },
+        "overviewQuestions": {
+            // Overview (synaptic) quiz questions relating to this topic that can be pulled out elsewhere
+        }
+
+        // This includes any config for the end of the unit - including any optional feedback questions & messaging
+    }
+}
