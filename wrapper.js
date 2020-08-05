@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
             if (event.data.field === currentStep.triggerField) {
                 for(i=0; i<steps.length; i++) {
                     var step = steps[i];
-                    if (event.data.field === step.triggerField && event.data.value === step.triggerValue) {
+                    if (event.data.field === step.triggerField && compareFieldValues(event.data.value, step.triggerValue)) { 
                         var nextStep = steps[i+1];
                         setCurrentStep(nextStep);
                     }
@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
             // TODO: could there be additional steps that only produce hint text - ie if we want to catch someone clicking the cancel button
         
     }
+
+    // Function to compare the value of what's been entered against trigger
+    // Can be extended to include fuzzy searching
+    function compareFieldValues(enteredValue, triggerValue) {
+        return enteredValue.toLowerCase() === triggerValue.toLowerCase();
+    }
+
     window.addEventListener("message", receiveMessage, false);
 
     // TODO: If this is the last step then hide the toggle button and put a start again button
@@ -78,6 +85,8 @@ function loadConfig(callback) {
     var configFile = "config_registration.json"; 
     if (window.location.pathname.indexOf("task2.html") != -1) {
         configFile = "config_email.json";
+    } else if (window.location.pathname.indexOf("task3.html") != -1) {
+        configFile = "config_send_email.json";
     }
 
     var xobj = new XMLHttpRequest();
@@ -96,4 +105,4 @@ function loadConfig(callback) {
 // TODO: Could use a fuzzy matching function - https://fusejs.io/
 // https://bashooka.com/coding/javascript-fuzzy-search-libraries/
 
-// TODO: Disable moving between screens if it's not the right step
+// TODO: Disable all buttons and clicks and only enable when they are the trigger 

@@ -1,0 +1,18 @@
+{ 
+    "iframe": "./iframe/mail/compose.html",
+    "title": "Sending an email",
+    "steps": [
+        { "step": 1, "triggerField": "inputTo", "triggerValue": "email@learnmyway.com", "instruction": 
+            "Type Learn My Way’s email address, email@learnmyway.com into the To box. Then select the Subject box.", 
+            "hint": "Not quite right" },
+        { "step": 2, "triggerField": "inputSubject", "triggerValue": "Great Course", "instruction": 
+                "Good. Next, type 'Great Course into the Subject box. Then select the large white box below the subject box.", 
+                "hint": "Not quite right" },
+
+        { "step": 3, "triggerField": "textAreaBody", "triggerValue": "Your course about using email really helped. From Salma.", "instruction": 
+            
+            "Finally, you'll need to type a message. Type 'Your course about using email really helped. From Salma.' into the Message box and press the Send button.", "hint": "Sorry that's wrong" },
+        { "step": 4, "triggerField": "buttonSend", "triggerValue": "send", "instruction": "Super, now click on the send button." },                    
+        { "step": 5, "triggerField": null, "triggerValue": null, "instruction": "Well done. You have helped Salma to send her first email." }
+    ]
+}

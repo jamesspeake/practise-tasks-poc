@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>email practise task</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Common assets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../assets/iframe.css">
+        <script src="../assets/iframe.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Compose email</h1>
+                    <div class="form-group">
+                        <label for="inputTo">To</label>
+                        <input type="text" id="inputTo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSubject">Subject</label>
+                        <input type="text" id="inputSubject" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="textAreaBody">Body</label>
+                        <textarea id="textAreaBody" class="form-control"></textarea>
+                    </div>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-light oi oi-paperclip" title="icon name" aria-hidden="true"> </button>
+
+                    <button class="btn btn-light oi oi-justify-left" title="icon name" aria-hidden="true"> </button>
+                    <button class="btn btn-light oi oi-justify-center" title="icon name" aria-hidden="true"> </button>
+                    <button class="btn btn-light oi oi-justify-right" title="icon name" aria-hidden="true"> </button>
+
+                    <button class="btn btn-primary" id="buttonSend" data-path="thanks.html" value="send">Send</button>
+                    <!-- TODO: Make the click function a goto function() that is aware of the current field focus -->
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

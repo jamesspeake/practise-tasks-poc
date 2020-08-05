@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 value: this.value
             };
             top.postMessage(data, '*');
+
+            // TODO: Add window.location change if data-path exists on it and it is the current focus
         });
     }
 
@@ -65,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function(){
         // Could have an additional 'do it for me' function where you pass in the value you're expecting
 
     }
+
     window.addEventListener("message", receiveMessage, false);
 });
 
