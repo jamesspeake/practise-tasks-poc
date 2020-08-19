@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
     var config = JSON.parse(configFile);
 
     // Load the iframe
-    var iframe = config.iframe;
-    document.getElementById('contentFrame').src = iframe;
+    loadIframe(config.iframe);
 
     // Set the title
     document.getElementById("title").innerText = config.title;
@@ -29,24 +28,6 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
     // Initialise the first instruction
     setCurrentStep(steps[0]);
 
-    // event listener for whats going on in the iframe
-    function receiveMessage(event) {
-        
-
-            if (event.data.field === currentStep.triggerField) {
-                for(i=0; i<steps.length; i++) {
-                    var step = steps[i];
-                    if (event.data.field === step.triggerField && compareFieldValues(event.data.value, step.triggerValue)) { 
-                        var nextStep = steps[i+1];
-                        setCurrentStep(nextStep);
-                    }
-                } 
-            } else {
-                document.getElementById("hint").innerText = currentStep.hint;
-            }
-            // TODO: could there be additional steps that only produce hint text - ie if we want to catch someone clicking the cancel button
-        
-    }
 
     // Function to compare the value of what's been entered against trigger
     // Can be extended to include fuzzy searching
@@ -54,9 +35,9 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
         return enteredValue.toLowerCase() === triggerValue.toLowerCase();
     }
 
-    window.addEventListener("message", receiveMessage, false);
 
-    // TODO: If this is the last step then hide the toggle button and put a start again button
+    // TODO: If this is the last step then hide the toggle button 
+    // TODO: If this is the last step then enable the next button & add a start again button
 
     // Toggle the highlight stuff
     var showMeVal = false;
@@ -69,13 +50,18 @@ document.addEventListener("DOMContentLoaded", loadConfig(function(configFile) {
     document.getElementById("showMe").addEventListener("click", showMeToggle);
 
     function showMe() {
-        var highlightFocus = showMeVal ? currentStep.triggerField : null;
-        var data = {
-            type: "highlight",
-            value: highlightFocus
+        
+        frameDoc = contentFrame.contentDocument; 
+
+        var currentFocus = currentStep.triggerField;
+        if (showMeVal) {
+            console.log("Highlighting: " + currentFocus);
+            frameDoc.getElementById(currentFocus).classList.add("highlight");
+        } else {
+            console.log("Highlighting off");
+            frameDoc.getElementById(currentFocus).classList.remove("highlight");
         }
-        var contentFrame = document.getElementById("contentFrame").contentWindow;
-        contentFrame.postMessage(data, '*'); // TODO: * isn't best practice, but fine for this
+
     }
 }));
 
@@ -106,3 +92,57 @@ function loadConfig(callback) {
 // https://bashooka.com/coding/javascript-fuzzy-search-libraries/
 
 // TODO: Disable all buttons and clicks and only enable when they are the trigger 
+
+function loadIframe(iframePath) {
+
+    // Load the iframe
+    document.getElementById('contentFrame').src = iframePath;
+
+    // Add all the functions to the iframe - yes this can be easily done
+    contentFrame.onload = function() {
+        frameDoc = contentFrame.contentDocument; 
+    
+        // Add listeners to the iframe
+    
+        // Inputs
+        const inputs = frameDoc.querySelectorAll("input");
+        for (let i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener("blur", function() {
+                console.log("Input changed: " + this.id);
+                var data = {
+                    field: this.id,
+                    value: this.value
+                };
+                top.postMessage(data, '*');
+            });
+        }
+
+        // Buttons
+        const buttons = frameDoc.querySelectorAll("button");
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function() {
+                console.log("Button click: " + this.id);
+                var data = {
+                    field: this.id,
+                    value: this.value
+                };
+                top.postMessage(data, '*');
+
+                // TODO: Add window.location change if data-path exists on it and it is the current focus
+            });
+        }
+
+        // Textarea
+        const textareas = frameDoc.querySelectorAll("textarea");
+        for (let i = 0; i < textareas.length; i++) {
+            textareas[i].addEventListener("blur", function() {
+                console.log("Text area changed: " + this.id);
+                var data = {
+                    field: this.id,
+                    value: this.value
+                };
+                top.postMessage(data, '*');
+            });
+        }
+    };
+}
