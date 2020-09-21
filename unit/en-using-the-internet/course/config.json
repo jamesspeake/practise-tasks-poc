@@ -1,0 +1,83 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "_id": "5c51ca2755578608eb23b336",
+  "__v": 0,
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
+  },
+  "_accessibility": {
+    "_isTextProcessorEnabled": true,
+    "_shouldSupportLegacyBrowsers": false,
+    "_isDisabledOnTouchDevices": false,
+    "_isEnabled": true
+  },
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "_courseId": "5c51ca2755578608eb23b335",
+  "_spoor": {
+    "_advancedSettings": {
+      "_commitOnVisibilityChangeHidden": false,
+      "_suppressErrors": true,
+      "_commitRetryDelay": 2000,
+      "_maxCommitRetries": 5,
+      "_timedCommitFrequency": 10,
+      "_commitOnStatusChange": true,
+      "_showDebugWindow": false
+    },
+    "_reporting": {
+      "_resetStatusOnLanguageChange": false,
+      "_onAssessmentFailure": "incomplete",
+      "_onTrackingCriteriaMet": "completed"
+    },
+    "_tracking": {
+      "_shouldRecordInteractions": false,
+      "_shouldStoreResponses": false,
+      "_shouldSubmitScore": false,
+      "_requireAssessmentPassed": false,
+      "_requireCourseCompleted": true
+    },
+    "_isEnabled": true
+  },
+  "_trickle": {
+    "_completionAttribute": "_isInteractionComplete"
+  },
+  "_mobileFixes": {
+    "_isEnabled": true
+  },
+  "_TTS": {
+    "_isEnabled": true
+  },
+  "build": {
+    "includes": [
+      "adapt-contrib-boxMenu",
+      "adapt-lmw",
+      "adapt-contrib-graphic",
+      "adapt-contrib-text",
+      "adapt-contrib-narrative",
+      "adapt-contrib-mcq",
+      "adapt-lmw-photostory",
+      "adapt-contrib-assessmentResults",
+      "adapt-lmw-activity",
+      "adapt-contrib-assessment",
+      "adapt-contrib-bookmarking",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-resources",
+      "adapt-contrib-spoor",
+      "adapt-contrib-trickle",
+      "adapt-contrib-tutor",
+      "adapt-hint",
+      "adapt-lmw-mobileFixes",
+      "adapt-lmw-speech",
+      "adapt-lmw-publishing"
+    ]
+  }
+}

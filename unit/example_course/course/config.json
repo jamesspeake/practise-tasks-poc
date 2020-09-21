@@ -1,0 +1,88 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "_disableAnimationFor": [],
+  "_id": "5f50ad801a175a0a523bc1e0",
+  "__v": 0,
+  "_courseId": "5f50ad801a175a0a523bc1cd",
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "_accessibility": {
+    "_isTextProcessorEnabled": true,
+    "_shouldSupportLegacyBrowsers": false,
+    "_isDisabledOnTouchDevices": false,
+    "_isEnabled": true
+  },
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
+  },
+  "_trickle": {
+    "_completionAttribute": "_isInteractionComplete"
+  },
+  "_mobileFixes": {
+    "_isEnabled": true
+  },
+  "_spoor": {
+    "_advancedSettings": {
+      "_commitOnVisibilityChangeHidden": false,
+      "_suppressErrors": true,
+      "_commitRetryDelay": 2000,
+      "_maxCommitRetries": 5,
+      "_timedCommitFrequency": 10,
+      "_commitOnStatusChange": true,
+      "_showDebugWindow": false
+    },
+    "_reporting": {
+      "_resetStatusOnLanguageChange": false,
+      "_onAssessmentFailure": "incomplete",
+      "_onTrackingCriteriaMet": "completed"
+    },
+    "_tracking": {
+      "_shouldRecordInteractions": false,
+      "_shouldStoreResponses": false,
+      "_shouldSubmitScore": false,
+      "_requireAssessmentPassed": false,
+      "_requireCourseCompleted": true
+    },
+    "_isEnabled": true
+  },
+  "_TTS": {
+    "_audioSource": "onedb",
+    "_isEnabled": true
+  },
+  "_articleNavigate": {
+    "_isEnabled": true
+  },
+  "_articleComplete": {
+    "_isEnabled": true
+  },
+  "build": {
+    "includes": [
+      "adapt-contrib-boxMenu",
+      "5dbc1bffe99c5f251dd472df",
+      "adapt-contrib-graphic",
+      "adapt-contrib-text",
+      "adapt-contrib-narrative",
+      "adapt-contrib-media",
+      "adapt-contrib-assessment",
+      "adapt-contrib-bookmarking",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-spoor",
+      "adapt-contrib-trickle",
+      "adapt-contrib-tutor",
+      "adapt-lmw-mobileFixes",
+      "adapt-lmw-speech",
+      "adapt-lmw-publishing",
+      "adapt-lmw5-article-complete",
+      "adapt-lmw5-article-navigate"
+    ]
+  }
+}

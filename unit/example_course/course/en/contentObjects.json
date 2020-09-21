@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Scrolling",
+    "displayTitle": "Scrolling",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "instruction": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f50ad801a175a0a523bc1ce",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/assets/126a30f95b49489807afc9b360b988ba08bff8c9.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_TTS": {
+      "_isEnabled": true,
+      "_audioSwitchEnableText": "Switch audio on",
+      "_audioSwitchDisableText": "Switch audio off"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "title": "The scroll-wheel",
+    "displayTitle": "The scroll-wheel",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "instruction": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f50adf51a175a0a523bc1f0",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/assets/126a30f95b49489807afc9b360b988ba08bff8c9.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_TTS": {
+      "_isEnabled": true,
+      "_audioSwitchEnableText": "Switch audio on",
+      "_audioSwitchDisableText": "Switch audio off"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "title": "The scroll-bar",
+    "displayTitle": "The scroll-bar",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "instruction": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f50ae471a175a0a523bc210",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/assets/126a30f95b49489807afc9b360b988ba08bff8c9.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_TTS": {
+      "_isEnabled": true,
+      "_audioSwitchEnableText": "Switch audio on",
+      "_audioSwitchDisableText": "Switch audio off"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "title": "Using the scroll bar",
+    "displayTitle": "Using the scroll bar",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "instruction": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f50aeda1a175a0a523bc230",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/assets/126a30f95b49489807afc9b360b988ba08bff8c9.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_TTS": {
+      "_isEnabled": true,
+      "_audioSwitchEnableText": "Switch audio on",
+      "_audioSwitchDisableText": "Switch audio off"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "title": "Summary",
+    "displayTitle": "Summary",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "instruction": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f50af0b1a175a0a523bc250",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/assets/126a30f95b49489807afc9b360b988ba08bff8c9.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_TTS": {
+      "_isEnabled": true,
+      "_audioSwitchEnableText": "Switch audio on",
+      "_audioSwitchDisableText": "Switch audio off"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  }
+]

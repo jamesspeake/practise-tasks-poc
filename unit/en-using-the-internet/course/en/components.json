@@ -1,0 +1,2242 @@
+[
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's coming up",
+    "displayTitle": "",
+    "body": "<p>&nbsp;</p>\n\n<ul>\n</ul>\n",
+    "_id": "5c51ca2855578608eb23b360",
+    "_parentId": "5c51ca2755578608eb23b345",
+    "_type": "component",
+    "_layout": "left",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/f95147007e81a600cd4f0627a372667367627e46.png",
+      "large": "course/en/assets/f95147007e81a600cd4f0627a372667367627e46.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's coming up",
+    "displayTitle": "",
+    "body": "<p>The internet is a great way of keeping in touch with friends and family, shopping, paying bills and booking travel or entertainment. This topic&nbsp;will help you to get started on the internet so you can do all of these things and more.</p><p>In this topic you&nbsp;will find out about what you can do on the internet, how to connect to the internet and how to keep your computer safe.&nbsp;</p>",
+    "_id": "5c51ca2855578608eb23b363",
+    "_parentId": "5c51ca2755578608eb23b345",
+    "_type": "component",
+    "_layout": "right",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select 'Continue' to find out more."
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What can you do?",
+    "displayTitle": "What can you do?",
+    "body": "<p>The internet – sometimes known as \"The Web\"&nbsp;– has changed the way people find information, learn, communicate, entertain themselves and buy and sell.</p><p>You can use the internet for many things. Let’s find out about a few of them.</p>",
+    "_id": "5c51ca2855578608eb23b364",
+    "_parentId": "5c51ca2755578608eb23b349",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select the ‘Next’ button to find out more.",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": true,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Keeping in touch",
+        "body": "<p>Staying in touch with <strong>friends and family</strong> is easy on the internet. You can send emails anywhere in the world. Or, with a microphone and internet connection, you can make free phone calls online. So, wherever your friends are, the internet lets you stay in touch <strong>quickly, cheaply and easily</strong>.</p><p>Social networking sites like Facebook or Twitter help people keep in touch. Among other things, these sites let you send <strong>messages, chat </strong><strong>to</strong><strong> friends and share photos</strong>.</p><p>&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/60466a762ac72184a11fb126851d3e1e1f59b586.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Keeping in touch"
+      },
+      {
+        "strapline": "Managing your finances",
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/4ec00aa704dc9d0500af2b2a4a52c8b14f04b451.png"
+        },
+        "body": "<p>Fed up of walking to the bank in the rain, only to stand in the queue for half an hour before being served? Internet banking is an <strong>easy and secure</strong> way of managing your finances at any time of the day or night, seven days a week. And you can do it all from the comfort of your own home.</p>\n\n<p>You can pay bills, set up and change direct debits and standing orders, or just check your balance &ndash; whenever and wherever it suits you.<br />\n&nbsp;</p>\n",
+        "title": "Managing your finances"
+      },
+      {
+        "strapline": "Online shopping",
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/d567830041d1d492550efe1116f16f2fb8f06969.png"
+        },
+        "body": "<p>Most major retailers have a website. They may offer a <strong>wider range</strong> of products at <strong>lower prices</strong> online than they do on the high street. All you have to do is decide what you want, pay and you can have&nbsp;it&nbsp;<strong>delivered straight to your&nbsp;door.&nbsp;</strong></p>\n\n<p>So, whether you want to buy a new TV or just do your weekly food shop, you can do it all online.&nbsp;</p>\n",
+        "title": "Online shopping"
+      },
+      {
+        "strapline": "Finding information",
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/1533f00a786922dcf0f263d75c179d8596f6ee80.png"
+        },
+        "body": "<p>The internet is a great place for finding information.</p>\n\n<p>Search engines like Google or encyclopedias&nbsp;like Wikipedia can help you find what you&rsquo;re looking for in no time. You can research places to go on holiday, help your kids with their homework or just find out what&rsquo;s going on in your area.</p>\n",
+        "title": "Finding information"
+      },
+      {
+        "title": "Solving problems",
+        "body": "<p>As well as finding information, you can also use the internet to solve problems. This is a good way to get advice from other people who have had a similar problem.</p><p>You can search for help with anything and you’ll find suggestions on how to solve it.</p>",
+        "_graphic": {
+          "src": "course/en/assets/f2f405cf5d328c2e9a068c46fd98c6f3ba091928.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Problem solving"
+      }
+    ]
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What can you use the internet for?",
+    "displayTitle": "What can you use the internet for?",
+    "body": "<p>Take a look at the options below.</p><p>Which of these can the internet be used for?</p>",
+    "_id": "5c51ca2855578608eb23b369",
+    "_parentId": "5c51ca2755578608eb23b34d",
+    "_type": "component",
+    "_layout": "full",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all correct options, then select 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Checking the news"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Keeping in touch with friends and family"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Managing your finances"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Shopping online"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Helping with children's homework."
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 5,
+    "_feedback": {
+      "correct": "<p>That&#39;s right, well done.</p><p>You can use the internet for all of these things.</p><p><strong>Select the &#39;X Close&#39; button to&nbsp;exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not quite right.</p><p>You can use the internet for all of these things:</p><ul><li>Checking the news</li><li>Keeping in touch with friends and family</li><li>Managing your finances</li><li>Shopping online</li><li>Helping with children&#39;s&nbsp;homework</li></ul><p><strong>Select the &#39;X Close&#39; button to&nbsp;exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not quite right.</p><p>You can use the internet for all of these things:</p><ul><li>Checking the news</li><li>Keeping in touch with friends and family</li><li>Managing your finances</li><li>Shopping online</li><li>Helping with children&#39;s&nbsp;homework</li></ul><p><strong>Select the &#39;X Close&#39; button to exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "photostory",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Getting connected",
+    "displayTitle": "Getting connected",
+    "body": "<p>You can access the internet from any computer that has an internet connection.</p>",
+    "_id": "5c51ca2855578608eb23b36a",
+    "_parentId": "5c51ca2855578608eb23b351",
+    "_type": "component",
+    "_layout": "full",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_items": [
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/fa6d2d34daa792ce1cc31ecee76838009d7c6eee.png"
+        },
+        "body": "<p>This could be your <strong>home computer</strong> connected to the internet through a broadband connection.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/21738e5c2468fed375ff828d0e1423be4d74dfd9.png"
+        },
+        "body": "<p>You might use a <strong>tablet computer</strong>, like an iPad or Kindle Fire. These connect through a wireless or Wi-Fi connection. Lots of places such as libraries and caf&eacute;s even provide <strong>free Wi-Fi</strong>.</p>"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/6e16b9a5f023d2700a75da156a8e95f1a97ad483.png"
+        },
+        "body": "<p>Or you might access the internet with a <strong>mobile phone</strong>. Smartphones, like iPhones and Android phones, connect to the internet through the&nbsp;phone networks, so you can access the internet from almost anywhere.</p>"
+      }
+    ],
+    "instruction": "Select the ‘Next’ button to find out more."
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2855578608eb23b36e",
+    "_parentId": "5c51ca2855578608eb23b355",
+    "_type": "component",
+    "_layout": "left",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/6488ab81b6db8afebcaa9ff63023a6bc9873b9eb.png",
+      "large": "course/en/assets/6488ab81b6db8afebcaa9ff63023a6bc9873b9eb.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Staying safe",
+    "displayTitle": "Staying safe",
+    "body": "<p>It’s important to protect your computer when you’re online, otherwise you could be at risk from viruses which could damage your computer or access personal information. They’re nothing to worry about if you have the right protection installed.</p><p>You should install <strong>virus protection</strong> software if your computer doesn’t have any. This software scans your computer regularly for signs of viruses or other unwanted files or programs and removes them. You can download virus protection for <strong>free </strong>from the internet – AVG and Avast! are good examples of free anti-virus programs.<br />&nbsp;</p>",
+    "_id": "5c51ca2855578608eb23b371",
+    "_parentId": "5c51ca2855578608eb23b355",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Congratulations!",
+    "displayTitle": "Congratulations!",
+    "body": "<p>Well done,&nbsp;you&#39;ve come to the end of the&nbsp;<strong>About the Internet </strong>topic.</p>\n\n<p>You&#39;ve learnt about some of the things you can do on the internet, different ways to access the internet and how to&nbsp;keep your computer safe.</p>\n\n<p>In the next topic,&nbsp;<strong>Getting around online</strong>, you&#39;ll find out about using a browser, finding websites and moving around websites.&nbsp;</p>\n",
+    "_id": "5c51ca2855578608eb23b372",
+    "_parentId": "5c51ca2855578608eb23b359",
+    "_type": "component",
+    "_layout": "right",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2855578608eb23b373",
+    "_parentId": "5c51ca2855578608eb23b359",
+    "_type": "component",
+    "_layout": "left",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/1da6cd0de4d2fb206683e96d54807cdff4720470.png",
+      "large": "course/en/assets/1da6cd0de4d2fb206683e96d54807cdff4720470.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's coming up",
+    "displayTitle": "",
+    "body": "<p>There&#39;s a lot of great things on the internet - pictures, stories, even films. Some content is free to use however you want,&nbsp;but sometimes there can be&nbsp;restrictions.</p>\n\n<p>In this topic you&#39;ll learn about internet copyright, as well as website terms and conditions.&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+    "_id": "5c51ca2855578608eb23b376",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b346",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2855578608eb23b377",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b346",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/589fbf0edc7fafb32f8b0ec725bef265d3fd5e29.png",
+      "large": "course/en/assets/589fbf0edc7fafb32f8b0ec725bef265d3fd5e29.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "photostory",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Copyright rules",
+    "displayTitle": "Copyright rules",
+    "body": "<p>The text and images on websites are often copyrighted by the person or company that created them &ndash; just like the DVDs and music you might buy in the shops.</p>\n",
+    "_id": "5c51ca2855578608eb23b37a",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b34a",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_hint": [],
+    "_items": [
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/d950605d11548f2dbb8210636d87f761280c06a5.png"
+        },
+        "body": "<p>Online music, TV shows and films are also copyrighted.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/fce74ff432454c74bfd810ec1d8be5caddd589cb.png"
+        },
+        "body": "<p>This symbol means that an item is protected under copyright law. The owner of the item has the right to control how and when it&rsquo;s used.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f5e33272e5e1f99efb6051c78eab426b45f4b772.jpg"
+        },
+        "body": "<p>It&rsquo;s <strong>against the law</strong> to copy, edit or reproduce content without permission.</p>\n\n<p>If you do use text or images from a website, you should ask permission or&nbsp;quote the source.</p>\n"
+      }
+    ],
+    "instruction": "Select the ‘Next’ button to find out more."
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b37e",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b34e",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/79bdf1a1fffe16fd0fe4ca4e4799893ed3debfff.png",
+      "small": "course/en/assets/79bdf1a1fffe16fd0fe4ca4e4799893ed3debfff.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Sticking to the rules",
+    "displayTitle": "Sticking to the rules",
+    "body": "<p>There are lots of ways you can watch films and television programmes online. For example, you can use <strong>BBC iPlayer</strong> or <strong>All 4.&nbsp;</strong>You can also download and listen to music using applications like <strong>Spotify</strong> or <strong>iTunes</strong>. These are all perfectly legal as well as being convenient and cheap &ndash; or in some cases even free.</p><p>However, there are also many websites that allow people to illegally&nbsp;download music or films. While this may seem harmless, it is as illegal as&nbsp;stealing a DVD from a shop.</p>",
+    "_id": "5c51ca2955578608eb23b381",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b34e",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What does the law say?",
+    "displayTitle": "What does the law say?",
+    "body": "<p>Which of the following should you&nbsp;<strong>not </strong>do?</p>",
+    "_id": "5c51ca2955578608eb23b382",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b352",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_hint": [],
+    "instruction": "Choose all correct options, then select 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Use photos or images without permission"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Use someone else’s written content without saying where it has come from."
+      },
+      {
+        "text": "Download copyrighted films without permission",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>That's right! Well done.&nbsp;</p><p>Doing any of these things is wrong.</p><p>When you copy or download anything from the internet you should make sure you are doing it legally. People who continually break copyright laws can have their internet service blocked or they can even be prosecuted.</p><p><strong>Select the 'X Close' button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that's not right.&nbsp;</p><p>Doing any of these things is wrong.</p><p>When you copy or download anything from the internet you should make sure you are doing it legally. People who continually break copyright laws can have their internet service blocked or they can even be prosecuted.</p><p><strong>Select the 'X Close' button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that's not right.&nbsp;</p><p>Doing any of these things is wrong.</p><p>When you copy or download anything from the internet you should make sure you are doing it legally. People who continually break copyright laws can have their internet service blocked or they can even be prosecuted.</p><p><strong>Select the 'X Close' button to exit this feedback, then choose 'Try again' to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Terms and conditions",
+    "displayTitle": "Terms and conditions",
+    "body": "<p>Many websites have terms and conditions, which&nbsp;are <strong>the rules</strong> which govern how you should use the site.</p>\n\n<p>If you are going to sign up or register for something online, you will probably need to agree to the terms and conditions. Make sure you <strong>read them </strong>before you agree to them and use the site. If you don&rsquo;t, you might break the rules without realising it and the site owner might limit your use of the site or close down your account altogether.</p>\n",
+    "_id": "5c51ca2955578608eb23b383",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b356",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b384",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b356",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/e9992fde9678a2cb155cdca32b8f8520c4100958.png",
+      "large": "course/en/assets/e9992fde9678a2cb155cdca32b8f8520c4100958.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Congratulations!",
+    "displayTitle": "Congratulations!",
+    "body": "<p>Well done, you&#39;ve come to the end of the <strong>Playing by the rules</strong>&nbsp;topic.</p>\n\n<p>You&#39;ve found out&nbsp;about the&nbsp;issues surrounding online copyright and&nbsp;the importance of website terms and conditions.</p>\n\n<p>The next and final part of this course is a short quiz so that you can check how much you&#39;ve learnt.</p>\n",
+    "_id": "5c51ca2955578608eb23b387",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b35a",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b388",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b35a",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/e3bf566e362429d5688f7d14eed99ecaa35e8e20.png",
+      "large": "course/en/assets/e3bf566e362429d5688f7d14eed99ecaa35e8e20.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Check your knowledge",
+    "displayTitle": "",
+    "body": "<p>This quiz is a simple way to see how much you remember about using online searches, and an opportunity to practise what you&#39;ve learned so far.</p>\n\n<p>There are four questions. Good luck.</p>\n",
+    "_id": "5c51ca2955578608eb23b38b",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b347",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b38c",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b347",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/ce4766ebb7276fe12fe30f21657435de57ca8e2a.png",
+      "large": "course/en/assets/ce4766ebb7276fe12fe30f21657435de57ca8e2a.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Question 1",
+    "displayTitle": "Question 1",
+    "body": "<p>What is a link?</p>",
+    "_id": "5c51ca2955578608eb23b38f",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b34b",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option from the list then select 'Check my answer'.",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "A word or image on a web page that connects you to another web page."
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": false,
+        "text": "A computer program that connects you to the internet."
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": false,
+        "text": "A tool that tracks which websites you’ve visited."
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": false,
+        "text": "A fast internet connection made without wires."
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&rsquo;s right, well done!</p><p>A link is a word or image on a Web page that connects you to another web page.</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not right. What we were looking for was:</p><p>A link is a word or image on a Web page that connects you to another web page.</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not right. What we were looking for was:</p><p>A link is a word or image on a Web page that connects you to another web page.</p><p><strong>Select the &#39;X Close&#39; button to&nbsp;exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Question 2",
+    "displayTitle": "Question 2",
+    "body": "<p>Which of these are ways to find a website?</p>",
+    "_id": "5c51ca2955578608eb23b390",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b34f",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all correct options, then select 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Entering the address in the address bar"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Searching for the name in a search engine"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Selecting a website from your list of favourites"
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>That&rsquo;s right, well done.</p><p>All of these statements are correct.</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not quite right. All of these statements are correct:</p><ul><li>You can use a search engine, like Google, to search for&nbsp;websites.</li><li>If you know the address of a website you can enter it into the address bar and go straight there.&nbsp;</li><li>If you&#39;ve previously visited a website and added a bookmark, you can select that bookmark in future to return to that site.</li></ul><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not quite right. All of these statements are correct:</p><ul><li>You can use a search engine, like Google, to search for&nbsp;websites.</li><li>If you know the address of a website you can enter it into the address bar and go straight there.&nbsp;</li><li>If you&#39;ve previously visited a website and added a bookmark, you can select that bookmark in future to return to that site.</li></ul><p><strong>Select the &#39;X Close&#39; button to exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Question 3",
+    "displayTitle": "Question 3",
+    "body": "<p>What could happen if you breach the terms and conditions on a website?</p>",
+    "_id": "5c51ca2955578608eb23b391",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b353",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all correct options, then select 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": false,
+        "text": "Your internet access could be suspended."
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Your account with the website could be suspended."
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "You may lose privileges on the website."
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>That&#39;s right, well done!</p><p>The owner of the website could remove your privileges&nbsp;on the website or suspend your account. &nbsp;</p><p>Your internet account wouldn&#39;t be suspended as this is separate from the website terms and conditions.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not quite right.</p><p>The owner of the website could remove your privileges&nbsp;on the website or suspend your account. &nbsp;</p><p>Your internet account wouldn&#39;t be suspended as this is separate from the website terms and conditions.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not quite right.</p><p>The owner of the website could remove your privileges&nbsp;on the website or suspend your account. &nbsp;</p><p>Your internet account wouldn&#39;t be suspended as this is separate from the website terms and conditions.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Question 4",
+    "displayTitle": "Question 4",
+    "body": "<p>Which of these are things that you can do on the internet?</p>",
+    "_id": "5c51ca2955578608eb23b392",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b357",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all correct options, then select 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Keep in touch"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Manage your finances "
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Shop"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "Find information"
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "correct": "<p>That&rsquo;s right, well done!</p><p>These are all things that you can do on the internet.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not quite right.</p><p>Keeping in touch, managing your finances, shopping and finding information are all are things that you can do on the internet.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not quite right.</p><p>Keeping in touch, managing your finances, shopping and finding information are all are things that you can do on the internet.&nbsp;</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Congratulations!",
+    "displayTitle": "Congratulations!",
+    "body": "<p>Well done,&nbsp;You&#39;ve&nbsp;completed this course about <strong>Using the internet</strong>.</p>\n\n<p>In this course you have found out about how to get online, how to get around on the internet and&nbsp;some of the important rules of the internet.</p>\n",
+    "_id": "5c51ca2955578608eb23b393",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b35d",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b394",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b35d",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/c6ef525ec66d636c12c82372d419b37bf8ede6c8.png",
+      "large": "course/en/assets/c6ef525ec66d636c12c82372d419b37bf8ede6c8.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "assessmentResults",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Quiz results",
+    "displayTitle": "Quiz results",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b397",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b35b",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_bands": [
+      {
+        "_classes": "",
+        "_allowRetry": true,
+        "feedback": "You should read through the course again before having another go at the quiz.",
+        "_score": 0
+      },
+      {
+        "_classes": "",
+        "_allowRetry": true,
+        "feedback": "You should read through the course again before having another go at the quiz.",
+        "_score": 20
+      },
+      {
+        "_classes": "",
+        "_allowRetry": true,
+        "feedback": "Good try. You seem to know the basics of Internet basics. You should read through the course again before having another go at the quiz.",
+        "_score": 40
+      },
+      {
+        "_classes": "",
+        "_allowRetry": true,
+        "feedback": "You have a good knowledge of using the internet but you may want to read through the course again before having another go at the quiz.",
+        "_score": 60
+      },
+      {
+        "_classes": "",
+        "_allowRetry": true,
+        "feedback": "Excellent result. You seem to know a lot about using the internet!",
+        "_score": 100
+      }
+    ],
+    "_completionBody": "You scored {{{score}}} out of {{{maxScore}}}. {{{feedback}}}",
+    "_retry": {
+      "feedback": "",
+      "button": "Retry Assessment"
+    },
+    "_assessmentId": "usinginternetquiz",
+    "_isVisibleBeforeCompletion": true,
+    "instruction": ""
+  },
+  {
+    "_component": "photostory",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Moving around",
+    "displayTitle": "Moving around",
+    "body": "<p>The most common way of moving around a website on the internet is to use links. These are basically pieces of text or buttons that you select to take you to another web page, download files or send an&nbsp;email.</p>\n",
+    "_id": "5c51ca2955578608eb23b398",
+    "_parentId": "5c51ca2855578608eb23b350",
+    "_type": "component",
+    "_layout": "full",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_items": [
+      {
+        "_graphic": {
+          "alt": "Moving around",
+          "src": "course/en/assets/5a29f8fdc115ebf5e463bcaca950af22d2c6a55e.jpg"
+        },
+        "body": "<p>Links are often just <strong>underlined</strong> pieces of text, sometimes in a different colour.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f79b60583f76918cd4e337f4789cb042e41155ec.jpg"
+        },
+        "body": "<p>Sometimes they are <strong>buttons or images</strong> that you can select.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/285dd61dc0894d98e04d32e05d8675c1c3b93120.jpg"
+        },
+        "body": "<p>If you&#39;re using a mouse, links sometimes change colour or&nbsp;appearance when you roll the cursor over them. The cursor sometimes changes to look like a hand.</p>\n"
+      }
+    ],
+    "instruction": "Select the ‘Next’ button to find out more."
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "The benefits of bookmarking",
+    "displayTitle": "The benefits of bookmarking",
+    "body": "<p>What are the benefits of adding a website to your bookmarks or favourites list?</p>",
+    "_id": "5c51ca2955578608eb23b39c",
+    "_parentId": "5c51ca2855578608eb23b35c",
+    "_type": "component",
+    "_layout": "full",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select all correct options and then 'Check my answer'",
+    "_items": [
+      {
+        "feedback": "",
+        "_shouldBeSelected": false,
+        "text": "The bookmarked website will open automatically when you open the web browser. "
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "You can get to your favourite sites more quickly"
+      },
+      {
+        "feedback": "",
+        "_shouldBeSelected": true,
+        "text": "You don't have to remember every website address"
+      }
+    ],
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>That&#39;s right. Well done!&nbsp;</p><p>Bookmarks take you to your favourite websites quickly, without you having to remember the addresses.</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+      "_incorrect": {
+        "final": "<p>Sorry, that&#39;s not right.</p><p>Bookmarks take you to your favourite websites quickly, without you having to remember the addresses.</p><p><strong>Select the &#39;X Close&#39; button to exit this feedback.</strong></p>",
+        "notFinal": "<p>Sorry, that&#39;s not quite right.</p><p>Bookmarks take you to your favourite websites quickly, without you having to remember the addresses.</p><p><strong>Select the &#39;X Close&#39; button to&nbsp;exit this feedback, then choose &#39;Try again&#39; to have another go.</strong></p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Check my answer",
+        "ariaLabel": "Check my answer"
+      },
+      "_reset": {
+        "buttonText": "Try again",
+        "ariaLabel": "Try again"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show correct answer",
+        "ariaLabel": "Show correct answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show my answer",
+        "ariaLabel": "Show my answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "photostory",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Printing",
+    "displayTitle": "Printing",
+    "body": "<p>Sometimes you might need to print a web page, for example proof of payment for something you&#39;ve bought online.</p>\n",
+    "_id": "5c51ca2955578608eb23b39d",
+    "_parentId": "5c51ca2855578608eb23b35e",
+    "_type": "component",
+    "_layout": "full",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_hint": [],
+    "_items": [
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/1bc5df373c39a6e6c4862ff07f0c2e7ed9415bba.png"
+        },
+        "body": "<p>Some browsers have a <strong>Print </strong>button that you can select to print the web page you are on.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/ab3cb47775bae43ae5b3642d90945228d14a139e.png"
+        },
+        "body": "<p>You can also print by selecting the <strong>Print </strong>option from the <strong>File </strong>menu in your browser.</p>\n"
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/c62817c46a19f9a1dcffd090346905a016a1a610.png"
+        },
+        "body": "<p>Some websites have a Print button on the web page too.</p>\n"
+      }
+    ],
+    "instruction": "Select the ‘Next’ button to find out more."
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Congratulations!",
+    "displayTitle": "Congratulations!",
+    "body": "<p>Well done, you&#39;ve&nbsp;come to the end of the <strong>Getting around online</strong>&nbsp;topic.&nbsp;</p>\n\n<p>You&#39;ve learnt how to&nbsp;launch a web browser and how to&nbsp;find and save a website. You&#39;ve also learnt how to&nbsp;use link and print a web page.</p>\n\n<p>In the next topic,&nbsp;<span><strong>Playing by the rules,</strong>&nbsp;we&#39;ll take a look at internet copyright, as well as website terms and conditions.&nbsp;</span></p>\n",
+    "_id": "5c51ca2955578608eb23b3a1",
+    "_parentId": "5c51ca2855578608eb23b35f",
+    "_type": "component",
+    "_layout": "right",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b3a2",
+    "_parentId": "5c51ca2855578608eb23b35f",
+    "_type": "component",
+    "_layout": "left",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/fba7931efaf5431fa12efd02529b7937e7baa8aa.png",
+      "large": "course/en/assets/fba7931efaf5431fa12efd02529b7937e7baa8aa.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Getting started",
+    "displayTitle": "",
+    "body": "<p>There are different ways to open a web browser depending on what device you are using, but they&#39;re all basically the same.</p><p>Find the icon (small picture) for the browser and select it. The browser will open and display a &#39;home page&#39; from where you can access the internet.&nbsp;</p>",
+    "_id": "5c51ca2955578608eb23b3a5",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b348",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2955578608eb23b3a6",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b348",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Common browser icons, Internet Explorer, Google Chrome, Firefox and Safari ",
+      "large": "course/en/assets/b941174009c170ba5ea0f5f8c0e41b1e2faf8b4b.png",
+      "small": "course/en/assets/b941174009c170ba5ea0f5f8c0e41b1e2faf8b4b.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5c51ca2a55578608eb23b3a9",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b354",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_graphic": {
+      "attribution": "",
+      "small": "course/en/assets/3b2b9f63292a992836deadec3e6719196d00f560.png",
+      "large": "course/en/assets/3b2b9f63292a992836deadec3e6719196d00f560.png",
+      "alt": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Bookmarks",
+    "displayTitle": "Bookmarks",
+    "body": "<p>Entering a website address is quicker than&nbsp;searching for a website but&nbsp;opening a website would be <strong>even quicker</strong> if we didn&#39;t have to type the address every time. That&#39;s where bookmarks can help.&nbsp;&nbsp;</p>\n\n<p>Bookmarking a website is like bookmarking a page in a book - it helps you find the page you want&nbsp;quickly in future.&nbsp;</p>\n\n<p>Different browsers have different names for bookmarks.&nbsp;For example, Chrome and&nbsp;Firefox call them <strong>Bookmarks </strong>but&nbsp;Internet Explorer calls them&nbsp;<strong>Favourites. </strong>They all&nbsp;mean&nbsp;the same thing and work the same way.&nbsp;</p>\n",
+    "_id": "5c51ca2a55578608eb23b3ac",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b354",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Adding a bookmark",
+    "displayTitle": "Adding a bookmark",
+    "body": "<p>Let&#39;s walk through the steps for adding&nbsp;a bookmark for the&nbsp;<strong>GOV.UK </strong>website&nbsp;so that you could find it quickly in future.</p>",
+    "_id": "5c51ca2a55578608eb23b3ad",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2855578608eb23b358",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select the ‘Next’ button to find out more.",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": true,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Select the Bookmark symbol",
+        "body": "<p>First, we&#39;d select the Bookmark symbol, a <strong>star</strong>, in the top right corner of the menu bar.&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/5034b5c4d8fe81912b07def1fdc8858ec988febc.png",
+          "alt": "Select the Bookmark symbol",
+          "attribution": ""
+        },
+        "strapline": "Select the Bookmark symbol"
+      },
+      {
+        "title": "Confirming the name",
+        "body": "<p>By default, bookmarks are saved to the <strong>Bookmarks Bar</strong> so that they can be found quickly later.&nbsp;</p><p>We could enter a name for the bookmark or keep&nbsp;the suggested one. In this case let&#39;s keep&nbsp;<strong>Welcome to GOV.UK</strong>.</p><p>We&#39;d&nbsp;select <strong>Done</strong>&nbsp;to save the bookmark.</p>",
+        "_graphic": {
+          "src": "course/en/assets/b4241d6386e3ffc8cd862decee864432a1834990.png",
+          "alt": "Confirming the name of the bookmark",
+          "attribution": ""
+        },
+        "strapline": "Confirming the name"
+      },
+      {
+        "title": "The saved bookmark",
+        "body": "<p>After we had&nbsp;saved the&nbsp;bookmark we would see a link for the website&nbsp;in&nbsp;the Bookmark Bar.</p><p>The next time we wanted to open the GOV.UK website we could select this link to go straight to there without needing to enter the address</p>",
+        "_graphic": {
+          "src": "course/en/assets/2052905f8e14261449d0a3d9d8ca1f2d979ddbb7.png",
+          "alt": "The saved bookmark",
+          "attribution": ""
+        },
+        "strapline": "The saved bookmark"
+      }
+    ]
+  },
+  {
+    "_component": "activity",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Opening websites",
+    "displayTitle": "Opening websites",
+    "body": "<p>Once you have opened a web browser you are ready to open a website.</p><p>Let&#39;s practise how to open websites.</p><p>Select the &#39;<strong>Start activity</strong>&#39; button below to begin.</p>",
+    "_id": "5c51ca2a55578608eb23b3b1",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5c51ca2755578608eb23b34c",
+    "_hint": [],
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_transcript": "",
+    "_mobileAlternative": true,
+    "_mobileAlternativeCondition": "small",
+    "_mobileAlternativeDisplayTitle": "Opening websites",
+    "_mobileAlternativeText": "<p dir=\"ltr\">Unfortunately this activity is not compatible with your device.</p><p dir=\"ltr\">If you would like to practise using your skills with this activity, please open this course on a device with a larger screen.</p><p>In this activity you would practise opening websites in three different ways. First, by typing a website address into the address bar of a browser. Next, by using the address bar to search for the name of a business and selecting the required result from the search results. Finally, by selecting a bookmark. Bookmarks are covered in more detail later in this course. Each of these methods can be used on a mobile device to open a website.</p><p>&nbsp;</p>",
+    "_mobileAlternativeGraphic": "",
+    "_pages": [
+      {
+        "_name": "open_web_start",
+        "displayTitle": "Try opening websites",
+        "_backgroundImage": "course/en/assets/7045bafaab58d26665ab1fd0a1e86a18a0e0feda.png",
+        "_backgroundColor": "",
+        "_layout": {
+          "layout": "backgroundImage"
+        },
+        "_events": [
+          {
+            "_name": "URLentry",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:pageLoad",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>If you know the website address  you can go to the right website by typing it into the address bar. <p></p>The address bar is the white rectangle at the top of the browser.</p><p>Try this out now, select the address bar and type <b>www.bl.uk</b> then press the <b>Enter</b> key, to see the British Library website.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "setObjectFocus",
+                "_args": "open_web_address_field",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "correct_step_1",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "url_wrong_1",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "open_web_address_field",
+                "test": "notSimilar",
+                "value": "www.bl.uk"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "disableEvent",
+                "_args": "url_wrong_1",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "url_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>Sorry that's not right. When you enter a website address it must be exactly right to go to straight to the correct website, making sure you use the full stops, sometimes called dots, in the right places.</p><p>Type <b>www.bl.uk</b> then press the <b>Enter</b> key.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "setObjectFocus",
+                "_args": "open_web_address_field",
+                "_argsParam": ""
+              },
+              {
+                "_action": "highlightObject",
+                "_args": "open_web_address_field",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "open_web_address_field",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "open_web_address_field",
+                "test": "similar",
+                "value": "www.bl.uk"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bl",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "url_wrong_2",
+            "_disabled": true,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "open_web_address_field",
+                "test": "notSimilar",
+                "value": "www.bl.uk"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Sorry that's not right. Let's see how it's done.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "disableEvent",
+                "_args": "url_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateDuration",
+                "_args": "700",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateTyping",
+                "_args": "open_web_address_field",
+                "_argsParam": "www.bl.uk"
+              },
+              {
+                "_action": "wait",
+                "_args": "1500",
+                "_argsParam": ""
+              },
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bl",
+                "_argsParam": ""
+              }
+            ]
+          }
+        ],
+        "_objects": [
+          {
+            "_name": "open_web_address_field",
+            "_type": "textInput",
+            "_position": {
+              "x": 16,
+              "y": 7,
+              "w": 797,
+              "h": 32
+            },
+            "_classes": "transparent borderless",
+            "_hidden": false,
+            "text": "",
+            "_asset": ""
+          }
+        ]
+      },
+      {
+        "_name": "open_web_bl",
+        "displayTitle": "",
+        "_backgroundImage": "course/en/assets/c2d8febf4f252b3d91433d45542e913839760ae9.png",
+        "_backgroundColor": "",
+        "_layout": {
+          "layout": "backgroundImage"
+        },
+        "_events": [
+          {
+            "_name": "browser_search",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:pageLoad",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>Good. You've entered a website address. You can see how the British Library website has appeared.</p>  <p>Now let's look at a second way to open a website. <p></p>If you don't know the website address, enter the name of the company in the address bar.</p> <p>The address bar works in the same way as a search engine so it will look the company up for you.</p> <p>Try this now by typing <b>BBC</b> in the address bar, then pressing the <b>Enter</b> key. We've removed the British Library website address ready for you to start.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "correct_step_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "wait",
+                "_args": "3000",
+                "_argsParam": ""
+              },
+              {
+                "_action": "showObject",
+                "_args": "openweb_address_bar",
+                "_argsParam": ""
+              },
+              {
+                "_action": "setObjectFocus",
+                "_args": "openweb_address_bar",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "search_wrong_1",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "openweb_address_bar",
+                "test": "notSimilar",
+                "value": "BBC"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "disableEvent",
+                "_args": "search_wrong_1",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "search_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>Sorry that's not quiet right. As this is just a practice you need to type accurately, when you do this for real the search would look up whatever you type but here just practice by typing BBC.</p> <p>Type <b>BBC</b> in the address bar, then press the <b>Enter</b> key.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "setObjectValue",
+                "_args": "openweb_address_bar",
+                "_argsParam": ""
+              },
+              {
+                "_action": "setObjectFocus",
+                "_args": "openweb_address_bar",
+                "_argsParam": ""
+              },
+              {
+                "_action": "highlightObject",
+                "_args": "openweb_address_bar",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "correct_step_2",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "openweb_address_bar",
+                "test": "similar",
+                "value": "BBC"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bbc_search",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "search_wrong_2",
+            "_disabled": true,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:keyUp",
+              "key": 13,
+              "keyInvert": false
+            },
+            "_conditions": [
+              {
+                "_object": "openweb_address_bar",
+                "test": "notSimilar",
+                "value": "BBC"
+              }
+            ],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Sorry that's not right. Let's see how it's done.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "disableEvent",
+                "_args": "search_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateDuration",
+                "_args": "700",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateTyping",
+                "_args": "openweb_address_bar",
+                "_argsParam": "BBC"
+              },
+              {
+                "_action": "wait",
+                "_args": "1200",
+                "_argsParam": ""
+              },
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bbc_search",
+                "_argsParam": ""
+              }
+            ]
+          }
+        ],
+        "_objects": [
+          {
+            "_name": "openweb_address_bar",
+            "_type": "textInput",
+            "_position": {
+              "x": 16,
+              "y": 7,
+              "w": 797,
+              "h": 32
+            },
+            "_classes": "borderless",
+            "_hidden": true,
+            "text": "",
+            "_asset": ""
+          }
+        ]
+      },
+      {
+        "_name": "open_web_bbc_search",
+        "displayTitle": "",
+        "_backgroundImage": "course/en/assets/81911bed63c3212cf777cf36b662a7af28d9230c.png",
+        "_backgroundColor": "",
+        "_layout": {
+          "layout": "backgroundImage"
+        },
+        "_events": [
+          {
+            "_name": "open_search",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:pageLoad",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Great, you've successfully searched for BBC. <p></p>From the list of results, select <b>Home - BBC News</b> to open the BBC News website.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "select_bbc",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_bbc",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "openweb_searchlink",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bbc",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_wrong_1",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Sorry that's not right. You need to select <b>Home - BBC News</b>.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "disableEvent",
+                "_args": "select_wrong_1",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "select_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "highlightObject",
+                "_args": "openweb_searchlink",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_wrong_2",
+            "_disabled": true,
+            "_trigger": {
+              "_object": "page",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Sorry that's not right. Let's see how it's done.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "showObject",
+                "_args": "mouse_pointer",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateDuration",
+                "_args": "4000",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateObject",
+                "_args": "mouse_pointer",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateMoveTo",
+                "_args": "openweb_searchlink",
+                "_argsParam": ""
+              },
+              {
+                "_action": "wait",
+                "_args": "1200",
+                "_argsParam": ""
+              },
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_bbc",
+                "_argsParam": ""
+              }
+            ]
+          }
+        ],
+        "_objects": [
+          {
+            "_name": "openweb_searchlink",
+            "_type": "hotspot",
+            "_position": {
+              "x": 30,
+              "y": 227,
+              "w": 313,
+              "h": 43
+            },
+            "_classes": "transparent borderless",
+            "_hidden": false,
+            "text": "",
+            "_asset": ""
+          },
+          {
+            "_name": "mouse_pointer",
+            "_type": "sprite",
+            "_position": {
+              "x": 1,
+              "y": 1,
+              "w": 30,
+              "h": 30
+            },
+            "_classes": "",
+            "_hidden": true,
+            "text": "",
+            "_asset": "course/en/assets/bee5f98ffa0aee5e50649603828a75f2246e4e3d.png"
+          }
+        ]
+      },
+      {
+        "_name": "open_web_bbc",
+        "displayTitle": "",
+        "_backgroundImage": "course/en/assets/9cfd14e44e25bf6f23053cae8d987df6a275bceb.png",
+        "_backgroundColor": "",
+        "_layout": {
+          "layout": "backgroundImage"
+        },
+        "_events": [
+          {
+            "_name": "select_bookmark",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:pageLoad",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>Great you've opened the BBC website from a search result.</p> <p>The third way to open a website is to select a bookmark.<p></p>You'll learn about bookmarks later. For now, select the bookmark that says <b>Welcome to GOV.UK</b> below the address bar.</p>",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_bookmark_correct",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "gov_uk_link",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_govuk",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_bookmark_wrong_1",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>Sorry that's not right.</p>  <p>You need to select the bookmark that says <b>Welcome to GOV.UK</b>. You can find it below the address bar.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "disableEvent",
+                "_args": "select_bookmark_wrong_1",
+                "_argsParam": ""
+              },
+              {
+                "_action": "enableEvent",
+                "_args": "select_bookmark_wrong_2",
+                "_argsParam": ""
+              },
+              {
+                "_action": "highlightObject",
+                "_args": "gov_uk_link",
+                "_argsParam": ""
+              }
+            ]
+          },
+          {
+            "_name": "select_bookmark_wrong_2",
+            "_disabled": true,
+            "_trigger": {
+              "_object": "page",
+              "on": "click",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "Sorry that's not right. Let's see how it's done.",
+                "_argsParam": ""
+              },
+              {
+                "_action": "showObject",
+                "_args": "mouse_pointer",
+                "_argsParam": ""
+              },
+              {
+                "_action": "wait",
+                "_args": "1000",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateObject",
+                "_args": "mouse_pointer",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateDuration",
+                "_args": "4000",
+                "_argsParam": ""
+              },
+              {
+                "_action": "animateMoveTo",
+                "_args": "gov_uk_link",
+                "_argsParam": ""
+              },
+              {
+                "_action": "wait",
+                "_args": "1200",
+                "_argsParam": ""
+              },
+              {
+                "_action": "gotoPage",
+                "_args": "open_web_govuk",
+                "_argsParam": ""
+              }
+            ]
+          }
+        ],
+        "_objects": [
+          {
+            "_name": "gov_uk_link",
+            "_type": "hotspot",
+            "_position": {
+              "x": 150,
+              "y": 42,
+              "w": 181,
+              "h": 29
+            },
+            "_classes": "transparent borderless",
+            "_hidden": false,
+            "text": "",
+            "_asset": ""
+          },
+          {
+            "_name": "mouse_pointer",
+            "_type": "sprite",
+            "_position": {
+              "x": 1,
+              "y": 1,
+              "w": 30,
+              "h": 30
+            },
+            "_classes": "",
+            "_hidden": true,
+            "text": "",
+            "_asset": "course/en/assets/bee5f98ffa0aee5e50649603828a75f2246e4e3d.png"
+          }
+        ]
+      },
+      {
+        "_name": "open_web_govuk",
+        "displayTitle": "You've opened three websites",
+        "_backgroundImage": "course/en/assets/03357203641d51f2350f59ab27f20cfc86f02205.png",
+        "_backgroundColor": "",
+        "_layout": {
+          "layout": "backgroundImage"
+        },
+        "_events": [
+          {
+            "_name": "success_page",
+            "_disabled": false,
+            "_trigger": {
+              "_object": "page",
+              "on": "activity:pageLoad",
+              "key": 0,
+              "keyInvert": false
+            },
+            "_conditions": [],
+            "_actions": [
+              {
+                "_action": "clearAndShowInstruction",
+                "_args": "<p>That’s great. You’ve opened three different websites using three different ways to do this. You entered a website address first. Then you searched for a website and opened a link from the search results. Finally you used a bookmark that we had set up for you.</p> <p>Press <b>Restart</b> if you'd like to try the activity again.</p><p>If you've finished, press <b>Close</b>.</p>",
+                "_argsParam": ""
+              },
+              {
+                "_action": "completeActivity",
+                "_args": "",
+                "_argsParam": ""
+              }
+            ]
+          }
+        ],
+        "_objects": []
+      }
+    ]
+  }
+]

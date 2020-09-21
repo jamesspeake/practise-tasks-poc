@@ -1,0 +1,16 @@
+/* Override the styles for Adapt content */
+
+div.navigation { 
+    display: none;
+    visibility: hidden;
+}
+
+div.trickle-button-component { 
+    display: none;
+    visibility: hidden;
+    height: 0;
+}
+
+div.speech-extension {
+    display: none;
+}

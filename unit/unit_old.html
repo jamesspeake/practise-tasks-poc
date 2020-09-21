@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Practise tasks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #completeText { display: none; }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1 id="unitTitle"></h1>
+
+        <p><button id="continueButton">Continue</button> <span id="debug"></span></p>
+        
+        <iframe width="600" height="400" src="" id="courseFrame"></iframe>
+
+        <p id="completeText">Well done you've completed the course. <a href="/course.html">Start again</a></p>
+
+
+        <script>
+
+        /**
+         *  Same config structure as used before
+         *  But by defining firstBlock & lastBlock we can choose to only use some of the Adapt course
+         *  Leaving out those parameters lets it go all the way through all blocks
+         */
+        var unit = {
+            "steps":[{
+                "format":"adapt",
+                "id":1, // changed from step to id
+                "type":"learning",
+                "config":{
+                    "path":"/example_course/", // Will use a subset of blocks
+                    "firstBlock":"5f50adf61a175a0a523bc1f3",
+                    "lastBlock":"5f50ae471a175a0a523bc214",
+                }
+            },{
+                "format":"adapt",
+                "id":2,
+                "type":"quiz",
+                "config":{
+                    // "path":"/example_course/"
+                    "path":"/en-using-the-internet/" // Will use all blocks
+                }
+            }
+            ],
+            "unitSk":1,
+            "description":"This is what you'll learn",
+            "unitPk":"en-GB",
+            "title":"Sending email attachments"
+        };
+
+        var blockNum = 0;
+        var blocks;           
+        var currentBlock = null;
+        var stepNum = 0;
+            
+            var firstBlock = null;
+            var lastBlock = null;
+
+
+
+        window.onload = function() {
+           
+            // Set the unit title
+            document.getElementById("unitTitle").innerText = config.title;
+
+            // Load the first step from adapt
+            loadAdapt(config.steps[stepNum]);
+
+        }
+
+        // TODO: Not finding the next step
+
+        /**
+         * Function that loads an Adapt unit into iframe and allows it to be navigated
+         * Takes the step object as config
+         */ 
+        function loadAdapt(step) {
+
+            document.getElementById("continueButton").focus(); // To stop frames loading in frames
+
+            blockNum = 0; // Reset block num
+
+            let courseFrame = parent.document.getElementById("courseFrame");
+
+            debug("Step load. " + step.config.path);
+
+            // Load in the course block configuration
+            fetch(step.config.path + 'course/en/blocks.json')
+            .then(response => response.json())
+            .then(blocks => {
+
+                // If first and last blocks not defined, just use the first and last in config
+                firstBlock = step.config.firstBlock;
+                if (firstBlock === undefined) {
+                    firstBlock = blocks[0]._id;
+                }
+
+                lastBlock = step.config.lastBlock;
+                if (lastBlock === undefined) {
+                    lastBlock = blocks[blocks.length - 1]._id;
+                }
+                currentBlock = firstBlock;
+                debug(firstBlock + " / " + lastBlock);
+                
+                // TODO: May need to reorder blocks by order field maybe?
+
+                // Load the adapt content at the first block
+                loadBlock(firstBlock, step);
+                
+                // Insert a stylesheet to override styles
+                courseFrame.onload = () => { addFrameStyle(courseFrame); }
+
+                // Link the continue button to the next block / next step
+                // TODO: Disable button if not complete in content
+                let continueButton = parent.document.getElementById("continueButton");
+                continueButton.addEventListener("click", function() { 
+                    loadNextBlock(step,blocks);
+                });
+            });
+        }
+
+        function loadBlock(blockID, step) {
+            blockNum++;
+            debug(" Loading block: " + blockNum + " / " + blockID);
+            courseFrame.src = step.config.path + "#/id/" + blockID;
+            // Not reloading this debug either
+            document.getElementById("debug").innerHTML = "Current step: " + step.step + " | Type: " + step.type + " | Block: " + blockNum + " / " + blockID; // Debug
+        }
+
+        function loadNextBlock(blocks, step) {
+            currentBlock = getNextBlockID(blocks,currentBlock,lastBlock);
+            if (currentBlock !== null) {
+                loadBlock(currentBlock, step);
+            } else {
+                // Move onto the next step and load the adapt content for that
+                if (stepNum < config.steps.length) {
+                    stepNum++;
+                    debug("Loading next step " + (stepNum + 1) + '/' + config.steps.length);
+                    loadAdapt(config.steps[stepNum]);
+                } else {
+                    // If no more steps, hide the iframe and display the completion text
+                    debug("Unit complete");
+                    document.getElementById("courseFrame").style.display = 'none';
+                    document.getElementById("continueButton").style.display = 'none';
+                    document.getElementById("completeText").style.display = 'block';
+                }
+            }
+            // TODO: Could try listening to the SCORM data here too - should be possible
+
+        }
+
+        // Work out what the ID of the next block is from blocks.json
+        function getNextBlockID(blocks, currentBlock, lastBlock) {
+            debug(blocks);
+            if (currentBlock !== lastBlock) {
+                for(i=0; i<blocks.length; i++) {
+                    
+                    debug(i, blocks[i]._id, currentBlock);
+                    if (blocks[i]._id === currentBlock) {
+                        debug("Next block ID - " + blocks[i+1]._id);
+                        return blocks[i+1]._id
+                    }
+                }
+            }
+            debug("No next block");
+            return null; // There is no next block
+        }
+
+        function addFrameStyle(courseFrame) {
+            let doc = courseFrame.contentDocument;
+            var cssLink = document.createElement("link");
+            cssLink.href = "../adapt.css"; 
+            cssLink.rel = "stylesheet"; 
+            cssLink.type = "text/css"; 
+            doc.head.appendChild(cssLink);
+        }
+
+
+        function debug(text) {
+            console.log("Adapt:", text);
+        }
+
+        </script>
+
+    </body>
+</html>

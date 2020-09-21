@@ -1,0 +1,18 @@
+WEBVTT
+
+NOTE file must be type .vtt create in a text editor like TextWrangler and Save as to change the file type
+NOTE file must be headed as this with webvtt in capitals
+
+00:01.000 --> 00:06.000
+To scroll down the page, gently touch the screen with your finger tip then move your finger up the screen. 
+NOTE timestamp must be in the format mm:ss.ttt mm is minutes ss is seconds and ttt is milliseconds they must be separated as in this example the colon and period are compulsory as are the spaces
+
+
+00:07.000 --> 00:12.000
+To scroll the content up the screen, touch the screen and move your finger downwards.
+
+
+NOTE Lines starting with note in capitals are ignored 
+NOTE No special characters to be used 
+NOTE A blank line signifies the end of a note
+NOTE positioning of captions is possible if for example the action being shown is in the area normally used for captions. For more details on how to do this go to https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API 

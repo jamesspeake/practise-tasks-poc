@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Using the internet",
+    "displayTitle": "",
+    "body": "<p>The internet is a giant library of information. On the internet you can keep in touch with friends and family, read the news, follow your hobbies, watch your favourite TV programmes, shop, compare prices, pay bills and much, much more. Watch our video to find out what other new internet users are doing online!</p>\n\n<p>The internet is made up of millions of websites, and each website is made up of lots of different web pages.</p>\n\n<p>If you&rsquo;re ready to find out more about the internet, select the &#39;Start&#39; button to begin.</p>\n",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Start",
+    "duration": "40 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c51ca2755578608eb23b337",
+    "_parentId": "course",
+    "_type": "menu",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/1294018e8345377fcd97d69d8e2ec92ae2ff8c3a.jpg"
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_bookmarking": {
+      "_level": "page",
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "About the internet",
+    "displayTitle": "About the internet",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c51ca2755578608eb23b339",
+    "_parentId": "5c51ca2755578608eb23b337",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/652867b15b9ecf1438a550ceb4d6efe07a2df69f.jpg"
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_bookmarking": {
+      "_level": "page",
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "Getting around online",
+    "displayTitle": "Getting around online",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c51ca2755578608eb23b33b",
+    "_parentId": "5c51ca2755578608eb23b337",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/7aaa0d883973f406258520b5dcb7f5197a6d516e.jpg"
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_bookmarking": {
+      "_level": "page",
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "Playing by the rules",
+    "displayTitle": "Playing by the rules",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c51ca2755578608eb23b33d",
+    "_type": "page",
+    "_parentId": "5c51ca2755578608eb23b337",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/6f8098eae7da5a2d8df6574838eacfd0b36b4f26.jpg"
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_bookmarking": {
+      "_level": "page",
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "Using the internet quiz",
+    "displayTitle": "Using the internet quiz",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Start",
+    "duration": "10 minutes",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c51ca2755578608eb23b33f",
+    "_type": "page",
+    "_parentId": "5c51ca2755578608eb23b337",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/6d8d7035c203427a852df256b5e05d6ddecc28a6.jpg"
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_bookmarking": {
+      "_level": "page",
+      "_isEnabled": true
+    }
+  }
+]

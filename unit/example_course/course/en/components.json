@@ -1,0 +1,292 @@
+[
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f50ad801a175a0a523bc1d6",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5f50ad801a175a0a523bc1d0",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Mouse with the scroll wheel hightlighted",
+      "large": "course/en/assets/08d607865c4913ae4cdad4e48ae63606da9a1f6d.png",
+      "small": "course/en/assets/08d607865c4913ae4cdad4e48ae63606da9a1f6d.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Scrolling",
+    "displayTitle": "",
+    "body": "<p>Sometimes a page in a document or a website is too big for you to see everything on the screen at once. When that happens, you need to move down the page to see it all.</p><p>This is called <strong>scrolling</strong>.&nbsp;</p>",
+    "_id": "5f50ad801a175a0a523bc1d7",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5f50ad801a175a0a523bc1d0",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f50adf61a175a0a523bc1fc",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5f50adf61a175a0a523bc1f3",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/235398c60d10c4d447b037c38408cb2d9cab8888.png",
+      "small": "course/en/assets/235398c60d10c4d447b037c38408cb2d9cab8888.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The scroll-wheel",
+    "displayTitle": "The scroll-wheel",
+    "body": "<p>There are different ways to scroll using a mouse.</p><p>If you have a mouse, first try the scroll-wheel. Roll one way and see how the content on screen moves. Roll the wheel the other way when you want to go in the opposite direction.</p>",
+    "_id": "5f50adf61a175a0a523bc1ff",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5f50adf61a175a0a523bc1f3",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The scroll-bar",
+    "displayTitle": "The scroll-bar",
+    "body": "<p>Not every mouse has a scroll-wheel. If your mouse doesn’t have one, don’t worry. There are other ways that you can scroll using the mouse.</p><p>On the right-hand side of a page, you may see a vertical bar with arrows at the top and bottom. This is the scroll-bar.</p>",
+    "_id": "5f50ae481a175a0a523bc220",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5f50ae471a175a0a523bc214",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Select the ‘Next’ button to find out more.",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": true,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Scroll bar and up arrow",
+        "_ariaLevel": 0,
+        "body": "<p>The scroll-bar runs from the top of the screen to the bottom of the screen.</p><p>At the top of the scroll-bar is an up arrow. Selecting the up arrow will move the view up the page. There is a down arrow at the bottom of the scroll-bar which can be used to move down the page.&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/7c6476fd3cfae94f1e515cd05463807722bad3b9.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Scroll bar and up arrow"
+      },
+      {
+        "title": "Scroll box",
+        "_ariaLevel": 0,
+        "body": "<p>Inside the scroll-bar there’s a box. The length of this box depends on the size of the page.</p><p>A big box means that most of the page is already visible.</p><p>A small box means that it’s a long page and a lot of the content is not currently visible.</p>",
+        "_graphic": {
+          "src": "course/en/assets/7f0e4597acf9f0cdb7514189268191fa679270b5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Scroll box"
+      }
+    ]
+  },
+  {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Using the scroll bar",
+    "displayTitle": "Using the scroll bar",
+    "body": "<p>So, how do you use a scroll-bar?</p>",
+    "_id": "5f50aedb1a175a0a523bc243",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5f50aeda1a175a0a523bc235",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Select the image to play the video. A written transcript is available below.",
+    "_media": {
+      "mp4": "course/en/assets/f4aa7c93ecd2733d8c6e3a7e58a4dd1d000bba66.mp4",
+      "ogv": "",
+      "webm": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "",
+      "cc": [
+        {
+          "srclang": "En",
+          "src": "course/en/assets/a8c7571e946b82cbc3d081cda4924ad06643c985.txt"
+        }
+      ]
+    },
+    "_setCompletionOn": "play",
+    "_useClosedCaptions": true,
+    "_startLanguage": "en",
+    "_showVolumeControl": true,
+    "_startVolume": "50%",
+    "_allowFullScreen": true,
+    "_pauseWhenOffScreen": false,
+    "_playsinline": false,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": true,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Close transcript",
+      "inlineTranscriptBody": "<p>This video demonstrates how to scroll up and down a window using the scroll bar box, located on the right of the window. To do this with a mouse you have to move the cursor over the scroll bar box. Then you have to press and hold the left button and move the cursor down. You will see that the page scrolls down. Lastly, you need to press and hold down the left mouse button again. Then move the cursor up. You will see that the page scrolls up. You can also move up and down the screen using the keyboard. To do this, Press and hold the Alt key then press the Up or Down keys.</p>",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f50af0c1a175a0a523bc267",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5f50af0b1a175a0a523bc256",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/17239770cddc0384115a759c1dcba5f28d8ffeec.png",
+      "small": "course/en/assets/17239770cddc0384115a759c1dcba5f28d8ffeec.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Congratulations!",
+    "displayTitle": "Congratulations!",
+    "body": "<p dir=\"ltr\">Well done, you've come to the end of the<strong> </strong><strong>Scrolling with a mouse</strong> topic.</p><p dir=\"ltr\">You've learnt about<strong>&nbsp;</strong>using the scroll-wheel on a mouse, as well as&nbsp;using the scroll-bar on a desktop PC and a laptop.</p>",
+    "_id": "5f50af0c1a175a0a523bc26a",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5f50af0b1a175a0a523bc256",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  }
+]

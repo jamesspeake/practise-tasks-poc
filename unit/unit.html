@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Practise tasks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #completeText { display: none; }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1 id="unitTitle"></h1>
+
+        <p><button id="continueButton">Continue</button></p> 
+        
+        <p id="debug"></p>
+        
+        <iframe width="600" height="400" src="" id="courseFrame"></iframe>
+
+        <p id="completeText">Well done you've completed the course. <a href="/course.html">Start again</a></p>
+
+
+        <script>
+
+        /**
+         *  Same config structure as used before
+         *  But by defining firstBlock & lastBlock we can choose to only use some of the Adapt course
+         *  Leaving out those parameters lets it go all the way through all blocks
+         */
+        var unit = {
+            "steps":[{
+                "format":"adapt",
+                "id":1, // changed from step to id
+                "type":"learning",
+                "config":{
+                    "path":"/unit/example_course/", // Will use a subset of blocks
+                    "firstBlock":"5f50adf61a175a0a523bc1f3",
+                    "lastBlock":"5f50ae471a175a0a523bc214",
+                }
+            },{
+                "format":"adapt",
+                "id":2,
+                "type":"quiz",
+                "config":{
+                    // "path":"/example_course/"
+                    "path":"/unit/en-using-the-internet/" // Will use all blocks
+                }
+            }
+            ],
+            "unitSk":1,
+            "description":"This is what you'll learn",
+            "unitPk":"en-GB",
+            "title":"Sending email attachments"
+        };
+
+        var blockNum = 0;
+        var stepNum = 0;
+
+        // Load all the config for all steps into a single object
+        loadConfig();
+
+        window.onload = function() {
+
+            debug(unit.steps);
+
+            // Set the unit title
+            document.getElementById("unitTitle").innerText = unit.title;
+
+            // Load the first adapt object/block into the courseFrame
+            let courseFrame = parent.document.getElementById("courseFrame");
+            loadBlock(courseFrame);
+
+            // Add listener to continue button
+            let continueButton = parent.document.getElementById("continueButton");
+            continueButton.addEventListener("click", function() { 
+                loadBlock(courseFrame);
+             });
+           
+
+        }
+
+        // Load all the config for each step into one object
+        // note: This isn't ideal - needs to be wrapped in a promise really to wait for all blocks to return
+        function loadConfig() {
+            unit.steps.forEach(step => {
+                // Read in block config for an Adapt
+                if (step.format === 'adapt') {
+                    step.config.blocks = [];
+                    fetch(step.config.path + 'course/en/blocks.json')
+                    .then(response => response.json())
+                    .then(blocks => {
+                        var start = step.config.firstBlock === undefined;
+                        var finished = false;
+                        blocks.forEach(block => {
+                            // Only start reading the blocks if this is the first block we want
+                            if (step.config.firstBlock !== undefined && step.config.firstBlock === block._id) {
+                                start = true;
+                            }
+                            if (start & !finished) {
+                                step.config.blocks.push(block._id);
+                            } 
+                            // Finish reading blocks if this is the last block
+                            if(step.config.lastBlock !== undefined && step.config.lastBlock === block._id) {
+                                finished = true;
+                            }
+                        });
+                    });
+                }
+            });
+        }
+
+        function loadBlock(courseFrame) {
+            
+            if (stepNum < unit.steps.length) {
+                var path = unit.steps[stepNum].config.path;
+                var blockID = unit.steps[stepNum].config.blocks[blockNum]; 
+                courseFrame.src = path + "#/id/" + blockID;
+                if (blockNum === 0) {
+                    // Style up the frame if the first block in step
+                    debug("Loading step " + stepNum);
+                    courseFrame.onload = () => { addFrameStyle(courseFrame); }
+                }
+                debug("Loaded block: " + blockNum + " / " + blockID);
+            } else {
+                // Show completion screen
+                debug("Unit complete");
+                document.getElementById("courseFrame").style.display = 'none';
+                document.getElementById("continueButton").style.display = 'none';
+                document.getElementById("completeText").style.display = 'block';
+            }
+
+            // Throw out some debug
+            document.getElementById("debug").innerHTML = "Step: " + stepNum + " | Path: " + path + " | Type: " + unit.steps[stepNum].type + " | Block: " + blockNum + " / " + blockID; // Debug
+            
+            // Increment the block / step
+            if (blockNum < unit.steps[stepNum].config.blocks.length - 1) {
+                blockNum++;
+            } else {
+                blockNum = 0;
+                stepNum++;
+            }
+            
+        }
+
+
+        function addFrameStyle(courseFrame) {
+            let doc = courseFrame.contentDocument;
+            var cssLink = document.createElement("link");
+            cssLink.href = "../adapt.css"; 
+            cssLink.rel = "stylesheet"; 
+            cssLink.type = "text/css"; 
+            doc.head.appendChild(cssLink);
+        }
+
+
+        function debug(text) {
+            console.log("Adapt:", text);
+        }
+
+        </script>
+
+    </body>
+</html>
