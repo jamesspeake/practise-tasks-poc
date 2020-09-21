@@ -84,6 +84,7 @@
 
         // Load all the config for each step into one object
         // note: This isn't ideal - needs to be wrapped in a promise really to wait for all blocks to return
+        // Don't know how adapt orders the blocks in the config, but blocks may need some reordering if they are in a crazy order
         function loadConfig() {
             unit.steps.forEach(step => {
                 // Read in block config for an Adapt
