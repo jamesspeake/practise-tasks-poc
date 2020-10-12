@@ -5,12 +5,26 @@ div.navigation {
     visibility: hidden;
 }
 
+/*
 div.trickle-button-component { 
     display: none;
     visibility: hidden;
     height: 0;
+}*/
+
+div.article-header {
+    display: none;
 }
 
-div.speech-extension {
+div#wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.article .article-inner {
+    padding-bottom: 0;
+}
+
+div.visibility-hidden {
+    visibility: hidden;
     display: none;
 }

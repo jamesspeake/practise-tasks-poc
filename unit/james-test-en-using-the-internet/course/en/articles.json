@@ -1,0 +1,210 @@
+[
+  {
+    "title": "About the internet",
+    "displayTitle": "About the internet",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f7484a01a175a0a523be7c6",
+    "_parentId": "5f7484a01a175a0a523be7c2",
+    "_type": "article",
+    "_assessment": {
+      "_attempts": -1,
+      "_isResetOnRevisit": false,
+      "_assessmentWeight": 1,
+      "_includeInTotalScore": false,
+      "_scoreToPass": 60,
+      "_isPercentageBased": false,
+      "_questions": {
+        "_canShowModelAnswer": false,
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_resetType": "soft"
+      },
+      "_randomisation": {
+        "_blockCount": 1,
+        "_isEnabled": false
+      },
+      "_banks": {
+        "_randomisation": false,
+        "_split": "",
+        "_isEnabled": false
+      },
+      "_id": "",
+      "_isEnabled": false
+    },
+    "_blockSlider": {
+      "_isEnabled": false,
+      "_arrows": {
+        "_isActive": true
+      },
+      "_tabs": {
+        "_isActive": true,
+        "_useBlockTitle": false
+      },
+      "_initial": 1,
+      "_height": "auto"
+    }
+  },
+  {
+    "title": "Playing by the rules",
+    "displayTitle": "Playing by the rules",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f7484a01a175a0a523be7c7",
+    "_type": "article",
+    "_parentId": "5f7484a01a175a0a523be7c4",
+    "_assessment": {
+      "_attempts": -1,
+      "_isResetOnRevisit": false,
+      "_assessmentWeight": 1,
+      "_includeInTotalScore": false,
+      "_scoreToPass": 60,
+      "_isPercentageBased": false,
+      "_questions": {
+        "_canShowModelAnswer": false,
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_resetType": "soft"
+      },
+      "_randomisation": {
+        "_blockCount": 1,
+        "_isEnabled": false
+      },
+      "_banks": {
+        "_randomisation": false,
+        "_split": "",
+        "_isEnabled": false
+      },
+      "_id": "",
+      "_isEnabled": false
+    },
+    "_blockSlider": {
+      "_isEnabled": false,
+      "_arrows": {
+        "_isActive": true
+      },
+      "_tabs": {
+        "_isActive": true,
+        "_useBlockTitle": false
+      },
+      "_initial": 1,
+      "_height": "auto"
+    }
+  },
+  {
+    "title": "Using the internet quiz",
+    "displayTitle": "Using the internet quiz",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f7484a01a175a0a523be7c8",
+    "_type": "article",
+    "_parentId": "5f7484a01a175a0a523be7c5",
+    "_assessment": {
+      "_isEnabled": true,
+      "_id": "usinginternetquiz",
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": 1
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": true,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": true
+      },
+      "_isPercentageBased": false,
+      "_scoreToPass": 4,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": true,
+      "_attempts": -1
+    },
+    "_blockSlider": {
+      "_isEnabled": false,
+      "_arrows": {
+        "_isActive": true
+      },
+      "_tabs": {
+        "_isActive": true,
+        "_useBlockTitle": false
+      },
+      "_initial": 1,
+      "_height": "auto"
+    }
+  },
+  {
+    "title": "Getting around online",
+    "displayTitle": "Getting around online",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_id": "5f7484a01a175a0a523be7c9",
+    "_parentId": "5f7484a01a175a0a523be7c3",
+    "_type": "article",
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": 1
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      },
+      "_isPercentageBased": false,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_attempts": -1
+    },
+    "_blockSlider": {
+      "_isEnabled": false,
+      "_arrows": {
+        "_isActive": true
+      },
+      "_tabs": {
+        "_isActive": true,
+        "_useBlockTitle": false
+      },
+      "_initial": 1,
+      "_height": "auto"
+    }
+  }
+]

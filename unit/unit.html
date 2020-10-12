@@ -20,33 +20,36 @@
         
         <iframe width="600" height="400" src="" id="courseFrame"></iframe>
 
-        <p id="completeText">Well done you've completed the course. <a href="/course.html">Start again</a></p>
+        <p id="completeText">Well done you've completed the course. <a href="/unit/unit.html">Start again</a></p>
 
 
         <script>
 
         /**
          *  Same config structure as used before
-         *  But by defining firstBlock & lastBlock we can choose to only use some of the Adapt course
-         *  Leaving out those parameters lets it go all the way through all blocks
+         *  By defining firstBlock & lastBlock we can choose to only use some of the Adapt course
+         *  Leaving out those parameters lets it go all the way through all blocks in the order defined
+         * 
+         *  Example here shows 2 steps using the same course
          */
         var unit = {
             "steps":[{
-                "format":"adapt",
-                "id":1, // changed from step to id
-                "type":"learning",
-                "config":{
-                    "path":"/practise-tasks-poc/unit/example_course/", // Will use a subset of blocks
-                    "firstBlock":"5f50adf61a175a0a523bc1f3",
-                    "lastBlock":"5f50ae471a175a0a523bc214",
+                "format": "adapt",
+                "id": 1, // changed from step to id
+                "type": "learning",
+                "config": {
+                    "path":"/unit/james-test-en-using-the-internet/", 
+                    "firstBlock":"5f7484a01a175a0a523be7cb",
+                    "lastBlock":"5f7484a11a175a0a523be7d3",
                 }
             },{
-                "format":"adapt",
-                "id":2,
-                "type":"quiz",
-                "config":{
-                    // "path":"/example_course/"
-                    "path":"/practise-tasks-poc/unit/en-using-the-internet/" // Will use all blocks
+                "format": "adapt",
+                "id": 2,
+                "type": "quiz",
+                "config": {
+                    "path":"/unit/james-test-en-using-the-internet/",
+                    "firstBlock":"5f7484a01a175a0a523be7cc",
+                    "lastBlock":"5f7484a11a175a0a523be7e0",                    
                 }
             }
             ],
@@ -78,13 +81,11 @@
             continueButton.addEventListener("click", function() { 
                 loadBlock(courseFrame);
              });
-           
 
         }
 
         // Load all the config for each step into one object
-        // note: This isn't ideal - needs to be wrapped in a promise really to wait for all blocks to return
-        // Don't know how adapt orders the blocks in the config, but blocks may need some reordering if they are in a crazy order
+        // note: This isn't ideal - needs to be wrapped in a promise really to wait for all steps/blocks to return
         function loadConfig() {
             unit.steps.forEach(step => {
                 // Read in block config for an Adapt
@@ -95,6 +96,10 @@
                     .then(blocks => {
                         var start = step.config.firstBlock === undefined;
                         var finished = false;
+
+                        // Sort the block config by _parentId and then _trackingId so they are in the correct order
+                        blocks.sort((a, b) => (a._parentId > b._parentId) ? 1 : (a._parentId === b._parentId) ? ((a._trackingId > b._trackingId) ? 1 : -1) : -1);
+
                         blocks.forEach(block => {
                             // Only start reading the blocks if this is the first block we want
                             if (step.config.firstBlock !== undefined && step.config.firstBlock === block._id) {
@@ -103,7 +108,7 @@
                             if (start & !finished) {
                                 step.config.blocks.push(block._id);
                             } 
-                            // Finish reading blocks if this is the last block
+                            // Finish reading blocks if this is the last block as defined in our config
                             if(step.config.lastBlock !== undefined && step.config.lastBlock === block._id) {
                                 finished = true;
                             }
@@ -122,9 +127,31 @@
                 if (blockNum === 0) {
                     // Style up the frame if the first block in step
                     debug("Loading step " + stepNum);
-                    courseFrame.onload = () => { addFrameStyle(courseFrame); }
-                }
+                    courseFrame.onload = () => { addFrameStyle(courseFrame, blockID); }
+                } 
+                
+                // Hide all blocks then reshow the one we needå
+                var checkLoaded = setInterval(function() {
+                    if (courseFrame.contentDocument.querySelector("[data-adapt-id='" + blockID + "']")) {
+
+                        debug("Block Exists! Showing: " + blockID);
+                        var blocks = courseFrame.contentDocument.querySelectorAll(".block");
+                        blocks.forEach(function(block) {
+                            block.classList.add("visibility-hidden");
+                        });
+
+                        courseFrame.contentDocument.querySelector("[data-adapt-id='" + blockID + "']").classList.remove("visibility-hidden");
+                        clearInterval(checkLoaded);
+                    }
+                }, 100);
+
+                // TODO: can we only enable the continue button if block has scrolled to the end / completed?
+                // TODO: Can we listen to the SCORM object from outside the frame? If we have a window.API we probably can
+
+                // TODO: Quiz results don't work
+
                 debug("Loaded block: " + blockNum + " / " + blockID);
+
             } else {
                 // Show completion screen
                 debug("Unit complete");
@@ -133,7 +160,7 @@
                 document.getElementById("completeText").style.display = 'block';
             }
 
-            // Throw out some debug
+            // Throw out some debug to screen
             document.getElementById("debug").innerHTML = "Step: " + stepNum + " | Path: " + path + " | Type: " + unit.steps[stepNum].type + " | Block: " + blockNum + " / " + blockID; // Debug
             
             // Increment the block / step

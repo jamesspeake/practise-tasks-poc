@@ -1,0 +1,103 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": false,
+  "_disableAnimationFor": [],
+  "_id": "5f7484a11a175a0a523be80c",
+  "__v": 0,
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
+  },
+  "_accessibility": {
+    "_isEnabled": true,
+    "_isTextProcessorEnabled": true,
+    "_isSkipNavigationEnabled": true,
+    "_ariaLevels": {
+      "_menu": 1,
+      "_menuItem": 2,
+      "_page": 1,
+      "_article": 2,
+      "_block": 3,
+      "_component": 4,
+      "_componentItem": 5
+    }
+  },
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "_courseId": "5f7484a01a175a0a523be7c0",
+  "_completionCriteria": {
+    "_requireContentCompleted": true,
+    "_requireAssessmentCompleted": false
+  },
+  "_logging": {
+    "_isEnabled": true,
+    "_level": "info",
+    "_console": true
+  },
+  "_scrollingContainer": {
+    "_isEnabled": false,
+    "_limitToSelector": ""
+  },
+  "_TTS": {
+    "_isEnabled": true,
+    "_audioSource": "onedb"
+  },
+  "_spoor": {
+    "_isEnabled": true,
+    "_tracking": {
+      "_shouldSubmitScore": false,
+      "_shouldStoreResponses": false,
+      "_shouldRecordInteractions": false
+    },
+    "_reporting": {
+      "_onTrackingCriteriaMet": "completed",
+      "_onAssessmentFailure": "incomplete",
+      "_resetStatusOnLanguageChange": false
+    },
+    "_advancedSettings": {
+      "_showDebugWindow": false,
+      "_commitOnStatusChange": true,
+      "_timedCommitFrequency": 10,
+      "_maxCommitRetries": 5,
+      "_commitRetryDelay": 2000,
+      "_suppressErrors": true,
+      "_commitOnVisibilityChangeHidden": false,
+      "_manifestIdentifier": "adapt_manifest",
+      "_exitStateIfIncomplete": "auto",
+      "_exitStateIfComplete": "auto"
+    }
+  },
+  "_mobileFixes": {
+    "_isEnabled": true
+  },
+  "build": {
+    "includes": [
+      "adapt-contrib-boxMenu",
+      "5c335b25a75aa425946381cc",
+      "adapt-contrib-graphic",
+      "adapt-contrib-text",
+      "adapt-contrib-narrative",
+      "adapt-contrib-mcq",
+      "adapt-lmw-photostory",
+      "adapt-contrib-assessmentResults",
+      "adapt-lmw-activity",
+      "adapt-contrib-assessment",
+      "adapt-contrib-bookmarking",
+      "adapt-contrib-resources",
+      "adapt-contrib-spoor",
+      "adapt-contrib-tutor",
+      "adapt-hint",
+      "adapt-lmw-mobileFixes",
+      "adapt-lmw-speech",
+      "adapt-lmw-publishing",
+      "adapt-contrib-blockslider"
+    ]
+  }
+}

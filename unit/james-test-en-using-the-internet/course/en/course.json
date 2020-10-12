@@ -1,0 +1,174 @@
+{
+  "title": "James TEST - EN - Using the internet",
+  "displayTitle": "X - EN - Using the internet",
+  "body": "",
+  "description": "",
+  "_latestTrackingId": 27,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_lockType": "",
+  "_id": "course",
+  "_type": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_globals": {
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources and search",
+        "close": "Close",
+        "closeDrawer": "Close Drawer",
+        "closeResources": "Close resources",
+        "drawer": "Side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_components": {
+      "_flipcard": {
+        "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
+      },
+      "_captivate": {
+        "ariaRegion": "This component displays an Adobe Captivate Movie"
+      },
+      "_confidenceSlider": {
+        "ariaRegion": "Answer the question by selecting a value from the range. Once you have done so, select the submit button below."
+      },
+      "_photostory": {
+        "ariaRegion": "This component displays a series of images with text. Click the arrow button to reveal items within the story"
+      },
+      "_activity": {
+        "ariaRegion": ""
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit."
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress."
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_accordion": {
+        "ariaRegion": "Accordion. Select each button to expand the content."
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question. Select your option and then submit."
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question. Select your option and then submit."
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results."
+      }
+    },
+    "_extensions": {
+      "_resources": {
+        "resources": "Additional resources."
+      }
+    }
+  },
+  "_publishing": {
+    "id": 15,
+    "groupName": "using-the-internet",
+    "version": 1,
+    "published": true
+  },
+  "_resources": {
+    "_isEnabled": false,
+    "_drawerOrder": 0,
+    "title": "Resources",
+    "description": "Click here to view resources for this course",
+    "_filterButtons": {
+      "all": "All",
+      "document": "Documents",
+      "media": "Media",
+      "link": "Links"
+    },
+    "_filterAria": {
+      "allAria": "View all resources",
+      "documentAria": "View document resources",
+      "mediaAria": "View media resources",
+      "linkAria": "View resource links"
+    },
+    "_resourcesItems": []
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "page",
+    "_showPrompt": true,
+    "title": "Bookmarking",
+    "body": "Bookmarking",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_assessment": {
+    "_isPercentageBased": false,
+    "_scoreToPass": 60
+  },
+  "_blockSlider": {
+    "_isEnabled": true
+  }
+}
