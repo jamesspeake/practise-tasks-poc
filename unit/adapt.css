@@ -5,12 +5,11 @@ div.navigation {
     visibility: hidden;
 }
 
-/*
 div.trickle-button-component { 
     display: none;
     visibility: hidden;
     height: 0;
-}*/
+}
 
 div.article-header {
     display: none;
