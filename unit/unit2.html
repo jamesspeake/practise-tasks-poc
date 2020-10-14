@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+
+    Can we get adapt.css and adapt.min.js, jquery.min.js, handlebars, require etc 
+    to always load from the cache no matter what the course being loaded? surely it will be the same 
+    file regardless? This will save > 600k of page load
+
+    Or could have loads of units in one 'deployable'? No, this is worse for version control.
+    Could we somehow intercept requirejs?
+
+-->
+    <head>
+        <meta charset="utf-8">
+        <title>Unit player POC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #completeText { display: none; }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1 id="unitTitle"></h1>
+
+        <p><button id="continueButton">Continue</button></p> 
+        
+        <p id="debug"></p>
+        
+        <iframe width="600" height="400" src="" id="courseFrame"></iframe>
+
+        <p id="completeText">Well done you've completed the course. <a href="/unit/unit.html">Start again</a></p>
+
+        <script>
+
+        // Config
+        var unit = {
+            "steps":[{
+                "format": "adapt",
+                "id": 1, // changed from step to id
+                "type": "learning",
+                "config": {
+                    "path":"/unit/en-using-the-internet/",
+                    "firstBlock":"5c51ca2755578608eb23b345"
+                }
+            }
+            ],
+            "unitSk":1,
+            "description":"This is what you'll learn",
+            "unitPk":"en-GB",
+            "title":"Sending email attachments"
+        };
+
+        // Needs to be global so we can update it and see those updates from everywhere
+        var currentBlockID = unit.steps[0].config.firstBlock;
+
+        window.onload = function() {
+
+            // Set the unit title
+            document.getElementById("unitTitle").innerText = unit.title;
+
+            // Load the adapt object into the courseFrame
+            let courseFrame = parent.document.getElementById("courseFrame");
+            courseFrame.src = unit.steps[0].config.path + "#/id/" + currentBlockID;
+
+            // Make the styling and event listener changes to the frame
+            courseFrame.onload = () => { 
+                adaptAddFrameStyle(courseFrame); 
+
+                let continueButton = parent.document.getElementById("continueButton");
+                continueButton.addEventListener('click', adaptContinueButtonClick);
+            }
+        } 
+
+        function adaptContinueButtonClick() {
+            debug("Clicked continue in block: " + currentBlockID);
+            var trickleButton = courseFrame.contentDocument.querySelector(".trickle-button-component-" + currentBlockID + " .button");
+            var currentBlockDiv = courseFrame.contentDocument.querySelector("[data-adapt-id='" + currentBlockID + "']");
+
+            if (currentBlockDiv.nextSibling === null) {
+                // If it's the last block, then move on to next step maybe?
+                debug("Last block - do something else") ; 
+            } else if (trickleButton.disabled === true) {
+                // Don't doing anything if adpat trickle is disabled
+                debug("Button disabled.");
+            } else {
+                // Move on to the next block, by clicking the trickle button
+                trickleButton.click();
+                currentBlockID = currentBlockDiv.nextSibling.dataset.adaptId;
+                debug("Set next block to: " + currentBlockID);
+
+                // Now hide all blocks and enable the next one
+                var blocks = courseFrame.contentDocument.querySelectorAll(".block");
+                blocks.forEach(function(block) {
+                    block.classList.add("visibility-hidden");
+                });
+                courseFrame.contentDocument.querySelector("[data-adapt-id='" + currentBlockID + "']").classList.remove("visibility-hidden");
+                // Can also check here if this is the last block so we can move on
+
+            }
+        }
+
+        function adaptAddFrameStyle(courseFrame) {
+            let doc = courseFrame.contentDocument;
+            var cssLink = document.createElement("link");
+            cssLink.href = "../adapt.css"; 
+            cssLink.rel = "stylesheet"; 
+            cssLink.type = "text/css"; 
+            doc.head.appendChild(cssLink);
+        }
+
+        function debug(text) {
+            console.log("Adapt:", text);
+        }
+
+        </script>
+
+    </body>
+</html>
